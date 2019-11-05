@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+@font-face {
+	font-family: '3dumbregular';
+	src: url('3Dumb-webfont.eot') format('eot'),
+		url('3Dumb-webfont.woff') format('woff'),
+		url("3Dumb-webfont.ttf") format("truetype"),
+		url("3Dumb-webfont.svg") format("svg");
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "Source Code Pro", Arial, serif;
+}
+
+h1, h2 {
+	font-family: "3dumbregular", Arial, serif;
+	color: #444;
+}
+
+h3, h4 {
+	font-family: "Source Code Pro", Arial, serif;
+	color: #444;
+}
+
+header {
+	text-align:center;
+}
+
+#main{
+	padding-left:360px;
+	padding-right: 10px;
+}
+
+#sidebar {
+	float: left;
+	width: 330px;
+	background-color:gray;
+	color:white;
+	padding-right: 10px;
+	margin: 0px;
+	height: 1550px;
+}
+
+#photo img{
+	border:1px solid #9FC6FF;
+	border-radius:1200px;
+	width: 200px;
+}
+
+#photo{
+	text-align:center;
+	padding:10px;
+}
+
+.icon{
+	float:left;
+	width:35px;
+	padding:0px 5px;
+}
+
+.icon-list{
+	/*float:left;*/
+	width:20px;
+	padding: 0px 5px;
+}
+
+hr{
+	margin-bottom: 10px;
+}
+
+#cordonees{
+	list-style-type: none;
+}
+
+section, div{
+	margin: 5px;
+}
+
+h3 {
+	padding: 5px 0px;
+}
+
+#experiences ul, #cours ul, #langues ul, #references ul{
+	padding-left: 30px;
+}
+
+#references ul ul{
+	padding-left: 5px;
+	font-size:15px;
+}
+
+#moi p{
+	text-align:justify;
+	font-size:15px;
+}
+
+li{
+	list-style-image: url(flecha.png);
+}
+
+#langues ul{
+	font-size:15px;
+}
+
+#sidebar section{
+	font-size:13px;
+}
